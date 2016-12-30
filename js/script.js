@@ -1,3 +1,24 @@
+//this function does this.
+/*this is another comment*/
+var changeOnClick = function () {
+	var currentClassName = document.getElementById('change').className;
+	if (currentClassName == 'change') {
+		document.getElementById('change').className = 'change please';
+	} else {
+		document.getElementById('change').className = 'change';
+	}
+}
+
+
+var doCoolStuff = function () {
+	var currentClassName = document.getElementById('cool').className;
+	//changing class name!!
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').className = 'cool red';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	}
+}
 var sayMyName = function(name) {
 	alert('My name is: '+name);
 }
